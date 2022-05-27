@@ -1,0 +1,234 @@
+---
+name: Zahid
+surname: Asghar
+position: "Professor "
+address: "School of Economics, Quaid-i-Azam University, Islamabad"
+www: 
+DOB: 14-10-1969
+profilepic: 
+email: "zasghar@qau.edu.pk"
+twitter: zahedasghar
+github: Zahidasghar
+linkedin: Zahid Asghar
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::hyndman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# About me
+
+  I am applied econometrician and statistician with special interests in development economics, making sense of data through Data visualization and  have conducted a large number of trainings on data analytics using Excel, STATA, R and EVIEWS. I have expertise in using R , STATA and Excel , and comfortable in using Datawrapper, Tableau, SPSS and EVIEWS for data anlysis. I am actively engaged in playing with data particularly _PovCalnetR_, _PDHS_, _PSLM_, _WDI using R_ among many other survey data sets. I have published in gender, food security and other socio-economic issues both in national and international peer reviewed journals. I am keen in having better awareness of development indicators in the society and to contribute to an evidence based decision making in socio-economic policy. I have strengths both in Statistics and Economics
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "SSC/MATRIC","1983-1985", "Board of Intermediate and Secondary Education", "Rawalpindi",
+  "HSSC","1985-1987", "Board of Intermediate and Secondary Education", "Lahore",
+  "Bachelor of Sceince", "1987-1990", "University of the Punjab", "Lahore, Pakistan",
+  "Master of Statistics", "1990-92", "Bahauddin Zakaraya University", "Multan, Pakistan",
+  "PhD Economics", "2002-2007", "Pakistan Institute of Development Economics", "Islamabad, Pakistan"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+# Employment
+
+*Quaid-i-Azam University, Islamabad* 
+
+  Professor  (School of Economics) \hfill 2018-to-date 
+  
+  Director  (School of Economics) \hfill Jan 2019- Jan 2022
+
+  Registrar  \hfill 2020-2021 
+
+  Associate Professor  \hfill 2015-2018 
+
+  Assistant Professor  \hfill 2002-2011 
+
+  Lecturer \hfill 1994-2000 
+
+*State Bank of Pakistan*
+
+Senior Faculty, National Institute of Banking and Finance \hfill 2011-2013 
+
+*Sultan Qaboos University, Oman* 
+ Visiting Consultant (2009-10)
+
+
+## Research Projects and Data Consultancy Projects: 
+
+	Data Analysis of Tax on Services Sector 2012-2022 of Punjab 
+	
+	Data Analyst for Earning Projection Survey of Free-Lancing jobs
+	under IGNITE, Ministry of Finance 2021, Pakistan   
+	
+	Data consultant for Ignite: National Technology Fund, Ministry of
+	Finance 2019-20 
+	
+	Assessing Data requirements for SDGs through key informant
+	interviews and surveys in progress under NRPU of the HEC (Current)
+	Data were extracted from PSLM and HIES from 1998-2015-16 Surveys 
+	
+	Member of the team as a data analyst for a research project for
+	financing agriculturists through a third party instead of  Arhtis
+	at NIBAF, State Bank of Pakistan 2011-13 
+	
+	Consultant for a project on Biases in Consumer Price Index (PIDE)
+	2007
+
+## Member of Professional/Statutory Bodies 
+
+ +    Senate Member, Pakistan Institute of Development Economics 2008-2011 
+ 
+ +    Member Research Advisory Council on ‘Research for Social 
+  Transformation and Advancement’ (RASTA) under PSDP of the Ministry 
+  of Planning, Development and Special Initiatives, the Government of
+  Pakistan, 2020-21 to-date 
+ +    Member Technical Committee Price Indices , Pakistan Bureau of 
+  Statistics 2013 to-date 
+  
+ +    LEAD fellow Cohort-19  
+  
+ +    Member Technical Committee SDGs , Pakistan Bureau of Statistics 
+  
+ +    Member Technical National Account Committee, Pakistan Bureau of
+  Statistics 
+  
+ +    Member, Board of Studies and Faculty at various academic institutions
+  
+
+## More than 40 peer reviewed jorunal articles (some are listed below) 
+  +  Shabnam,N, Santeramo,F.,Asghar,Z and  Antonio,S  “The Impact Of Food
+ 	Price Crises On The Demand For Nutrients In Pakistan” 
+ 	*Journal of South Asian Development* 11 (3), 305-327  
+ 	
+ 	
+  +  Noor, Amna & Asghar, Zahid & Sarwar, Haroon & Arfeen, Irfanullah.
+  (2021). Role of the ICT in Women Empowerment and Achieving SDGs: A
+  Case Study of Women Labor Force in Developing Countries.
+  *ETIKONOMI*. 20. 339-348. 10.15408/etk.v20i2.22045. 
+  
+  
+  +  A Noor, Z Asghar, MI Arfeen, "Role of the ICT in Women's Empowerment
+  and Achieving SDGs 2030: A Case Study of Pakistan by using PDHS
+  Data." *Journal of Managerial Sciences*, 2021 
+  
+  +  Muhammad Asif, Zawar Hussain, Zahid Asghar, Muhammad Irfan Hussain,
+  Mariya Raftab, Said Farooq Shah, Akbar Ali Khan,A statistical
+  evidence of power law distribution in the upper tail of world
+  billionaires’ data 2010–20,*Physica A: Statistical  Mechanics and its Applications*, Volume 581, 2021  
+ 
+  +  M Aslam, C Ley, Z Hussain, SF Shah, Z Asghar “A new generator for
+  proposing flexible lifetime distributions and its properties”
+ *PloS One* 15 (4), e0231908	2020 
+
+  +  Khan, F., Asghar, Z., Tipu, M., Rehman, A., Khan, A., & Rehman, T.
+  "Effect of displacement on Adherence to TB Treatment: An
+  observational study in TB patients from Internally Displaced Persons
+  of Pakistan". *Pakistan Journal of Medical Sciences*, 37(3),2021 
+	
+  +  Asghar, Zahid and Khaild, Mahmood, “Biases in Consumer Price Index
+  Methodology in Pakistan: Suggestions for Improvements” *Pakistan Development Review* Vol.47(3) (2008) 267-285. 
+ 	
+  +  Musarrat Ijaz, Zahid Asghar & Asma Gul (2019) Ensemble of penalized
+  logistic models for classification of high-dimensional data,
+ *Communications in Statistics - Simulation and Computation*,
+ DOI: 10.1080/03610918.2019.1595647 
+ 	
+  +  Shahzad,M. Riaz, M. and Asghar,Z “On The Evaluation Of Different
+  Forecasters' Performance” 	*Communication in Statistics,Computation  	and Simulations*  (2018)
+ 	
+## Trainings conducted as a Trainer: (35+ Trainings) 
+ +    *Econometrics Using STATA Under TVET Support Program in Pakistan*, 2-13 March, 2015
+ +    Applied Econometrics, NIBAF, State Bank of Pakistan 14-18 December, 2017, Islamabad 
+ +    **Data Management and Analysis Using STATA**, _International Rescue Committee_, 25-27 April, 2017 Islamabad 
+
+ +    Workshop conducted for Mid-Career Management Course on “Data
+	Visualization” Information Services Academy, Islamabad, December,
+	2020 
+	
+ +    Resource Person for  ‘Data Visualization and its importance for
+	Journalists and media’, Information Services Academy, Islamabad, 
+	3rd January, 2020 
+	
+ +    Resource Person for Workshop on Applied Economics Using Softwares, School of
+	Economics, QAU, 22-26 July,2019
+
+ +    Resource Person for Workshop on Analysing Data Using Stata, Pakistan Institute of     Development Economics, Islamabad, 5-February,2019 
+ +    Data Visualization for Policy Making Using Excel for Faculty Development Program,
+	HEC, 2-Sessions, 20th January,2019 
+ +    Resource Person for Workshop on Applied Econometrics, School of Economics, QAU, 
+	4-6 Jan,2019 
+ +    National Invited Speaker for “ Making Sense of Data Through Visualization,
+	University of Malakand, Nov-2018 
+ +    National Invited Speaker for “Data Visualization”, Women University, Multan
+	11-May, 2018 
+ +    Data, Data Visualization, and Data Driven Decision Making for Faculty Development
+ +    Program, HEC, 2-Sessions, 20th January,2017 
+ +    Teaching Basic Statistics for Teachers Workshop at PIDE (Conducted 2 Sessions on
+ +    Data Visualization and Exploration August, 2016) 
+ +    MS Excel-Advanced Young Professional Induction Program Batch 5, NIBAF, State Bank 
+	of Pakistan (20-22 June, 2016) 
+ +    Visualization and Exploration of Data Using R for PIDE research staff and students
+	(8-9 May, 2016).
+	*Business Intelligence through Financial Modeling-Scenario-Building* for Senior
+ +    Middle Management of SBP-BSC, NIBAF, Islamabad (4 hours), 2016 (2nd Iteration).
+	*Business Intelligence through Financial Modeling-Scenario-Building* for Senior
+ +    Middle Management of SBP-BSC, NIBAF, Islamabad (4 hours), 2016 
+	
+ +    *Use of Statistical Package for Social Sciences (SPSS) In Agricultural Statistics of Pakistan* Ministry of Food Security and Research, PARC, Islamabad Feb.24,2016 
+	
+ +    *MS Excel Advanced for SBP-BSC officers* at NIBAF Islamabad (Feb.22-23, 2016) 
+	
+ +    *Statistical Methods Using STATA* for Strengthening of Crops Estimation System in Pakistan by Capacity Building of the Officers.  Ministry of Food Security and
+  Research, Islamabad, October 20,2015 
+  
+ +    *Applied Research Methods for Economics & Finance*, Department of Economics and
+	Finance, PIDE, Islamabad September 7-11,2015 
+	
+ +    *Processing and Analysis of Data (Methodology and Software)* June10-12, 2015 
+	*MS Office-Advanced (Excel, Word & PowerPoint) Young Professional Induction Program*. NIBAF, State Bank of Pakistan (22-25 April, 2015) 
+	
+ +    *Inflation, Measurement Issues and its Impact on Common Man* for Research Officers (Economist Group) M/O Planning, Development and Reform at PPMI, Islamabad (22 Oct, 2014) 
+ +    *Data Analysis Using Excel-Advanced for Research Staff and Faculty*, Pakistan
+	Institute of Development Economics, Islamabad (9-10 June, 2014)
+ +    *Advanced Applied Econometrics Using STATA/ EVIEWS* for State Bank of Pakistan
+ Officers at LRC, Karachi (24 June-5 July 2013)
+ +    *Issues in Pakistan Economy*, State Bank Officers Training, NIBAF, 6th July, 2013 Islamabad
+ +    *Advanced Econometrics Using STATA and EVIEWS* for State Bank of Pakistan Officers (Research, Statistics and Data Ware House wing) at LRC, Karachi (Feb-Mar 2013)
+ +    *Applied Econometrics* for State Bank of Pakistan officers (Monetary and Economic Policy Division) at LRC, Karachi (2012)
+ +    *Managerial Economics: International Business Administration & IT Course for Central Asian Republics* NIBAF, State Bank of Pakistan, (2012)
+ +    *National Accounts*, State Bank Officers Training Scheme (2012)
+	*Biostatistics and Genetic Epidemiology*, Quaid-i-Azam University, Islamabad. Served as Focal Person from Aug 02-11 (2016).
+ +    *Two weeks training course on Statistics*, Planning Commission of Pakistan, Pakistan (2005)
+ +    *Resource Person for Higher Education Commission Faculty Development Program* 2017 to-date
+ 	
+## PhD thesis 
+
+  Supervised: 5 
+  
+  Under-progress: 3
+
+  Mphil thesis (Supervised): 40 + 
+
+## References: 
+
+  Dr. Asad Zaman, Ex-Vice Chancellor, Pakistan Institute of 
+  Development
+  Economics, Islamabad. Email: asadzaman@alum.mit.edu 
+  
+  Dr. Rehana Siddiqui, Former-Joint Director, Pakistan Institute of
+  Development Economics, Islamabad. Pakistan Email:
+  s_rehana@hotmail.com 
+  
+  Dr. Aman Ullah, Joint Chief Economist,Planning and Development Board, Government of Punjab, Lahore  email: aman.economist@gmail.com
+
+    
